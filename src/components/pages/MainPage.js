@@ -16,7 +16,9 @@ const MainPage=()=>{
 
     return (
         <>
-        <RandomChar/>
+            <ErrorBoundary>
+                 <RandomChar/>
+            </ErrorBoundary>
             <div className="char__content">
                 <CharList onCharSelected={onCharSelected}/>
                <div>
