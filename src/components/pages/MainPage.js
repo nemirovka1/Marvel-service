@@ -16,12 +16,6 @@ const MainPage=()=>{
 
     return (
         <>
-        <Helmet>
-            <meta
-                name="description"
-                content="Marvel information portal"/>
-            <title>Marvel information </title>
-        </Helmet>
         <RandomChar/>
             <div className="char__content">
                 <CharList onCharSelected={onCharSelected}/>
